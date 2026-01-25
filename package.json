@@ -1,0 +1,20 @@
+{
+  "name": "enjoy-foods-server",
+  "version": "1.0.0",
+  "description": "server for food delivery web apps",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Ahmed Tanryverdiev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mssql": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

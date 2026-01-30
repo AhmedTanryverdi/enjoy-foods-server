@@ -2,16 +2,19 @@
   "name": "effective-mobile",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec ts-node index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "@types/mssql": "^9.1.9",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mssql": "^12.2.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",

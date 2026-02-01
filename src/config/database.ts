@@ -1,7 +1,8 @@
 import sql from 'mssql';
 import {DbConfigTypes} from '../../types/dbconfig.types';
+import dotenv from 'dotenv';
 
-require('dotenv').config();
+dotenv.config();
 
 export const config: DbConfigTypes = {
     user: process.env.DB_USER,
